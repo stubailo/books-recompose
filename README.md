@@ -1,6 +1,8 @@
 ## Running It
 `git clone git@github.com:idkjs/books-recompose.git`
+
 `npm install`
+
 `npm start`
 
 ## Deploying It
