@@ -6,6 +6,9 @@ node_modules
 # testing
 coverage
 
+#webstorm
+.idea
+
 # production
 build
 
