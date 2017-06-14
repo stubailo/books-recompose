@@ -1,5 +1,5 @@
 ## Medium Article
-[Keeping Apollo and Recompose in Check](https://medium.com/@idkjs/keeping-apollo-and-recompose-in-check-d52962c5308a))
+[Keeping Apollo and Recompose in Check](https://medium.com/@idkjs/keeping-apollo-and-recompose-in-check-d52962c5308a)
 
 ## Running It
 `git clone git@github.com:idkjs/books-recompose.git`
