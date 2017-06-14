@@ -30,6 +30,8 @@ Important Points:
 - For fake data, I used [Mockeroo](www.mockeroo.com) because there regex functionality 
 is super cool and makes it easy to create nested objects which the demo schema required.
 
+- deploying the demo was pretty easy with create-react-app-now. It was my first time using it so it wasnt so clear but if you just follow the instructions, it apparently works! [deployed](https://books-recompose.now.sh)
+
 ## Setup MongoDB on Mlab.com
 - Go to [mlab](www.mlab.com) and get you a sandbox. Create a user for the db. Note the 
 user's login and password. (NOT THE SAME AS WHAT YOU LOGGED INTO MLAB WITH)
@@ -56,9 +58,13 @@ screen.
 
 Add endpoint to Apollo's networkInterface object in app.js.
 
+Create a boilerplate app with create-react-app-now, instead of create-react-app to ease deployment later on.
+
 Drop in refactored demo code from the article. The refactor in the article not expected to run so I had to clean it up just a bit.
 
 Put some minimum css in it so it doesn't hurt the eyes (even if you don't know css)
+
+Deploye with [Now-CLI](www.now.sh)
 
 ## The rest is from the create-react-app-now [repo](https://github.com/xkawi/create-react-app-now)
 
