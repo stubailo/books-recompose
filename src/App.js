@@ -14,7 +14,7 @@ import {
 } from 'react-apollo';
 
 // create network interface for your app to connect to Apollo Launchpad. Set the uri
-// value to the graphql-up endpoint you got.
+// value to the graphql endpoint you got.
 const networkInterface = createNetworkInterface({ uri: 'https://k7mmlwwl7.lp.gql.zone/graphql' });
 
 // instantiate apollo-client
