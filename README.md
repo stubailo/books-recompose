@@ -7,6 +7,7 @@
 
 ## Deploying It
 `npm install -g now`
+
 `npm run deploy`
 
 ## WHY?
