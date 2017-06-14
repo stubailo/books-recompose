@@ -17,13 +17,13 @@ worked so I worked backwards from the example to add a backend to it. Below are 
 
 Important Points: 
 - Only way I know how to run a search with graphql is to use MongoDB on
- the backend use the ReGex operator there. So had to be put up a quick sandbox on [mLab]
+ the backend and use the ReGex operator there. So I had to be put up a quick sandbox on [mLab]
  (www.mlab.com)
  
 - For a functioning graphql endpoint to test against that I could connect to MongoDB, I
- went  with Apollo's awesome [Launchpad](launchpad.graphql.com). My first run at this 
+ went  with Apollo's awesome [Launchpad](https://dev-blog.apollodata.com/introducing-launchpad-the-graphql-server-demo-platform-cc4e7481fcba). My first run at this 
  was with [GraphCool](www.graph.cool) but you don't have control of the resolvers as I 
- understand it so could not really get at the Regex thing. They do have an [Algolia](www.algolia.com) 
+ understand it so I could not really get at the Regex thing. They do have an [Algolia](www.algolia.com) 
  integration that seems worth checking out.
  
 - For fake data, I used [Mockeroo](www.mockeroo.com) because there regex functionality 
@@ -53,13 +53,15 @@ Import fake data to mLab sandbox MongoDB instance.
 Get generated Launchpad Endpoint: https://k7mmlwwl7.lp.gql.zone/graphql at bottom of 
 screen.
 
-Add endpoint to Apollo network interface in app.js.
+Add endpoint to Apollo's networkInterface object in app.js.
 
-Drop in code from demo in article.
+Drop in refactored demo code from the article. The refactor in the article not expected to run so I had to clean it up just a bit.
 
 Put some minimum css in it so it doesn't hurt the eyes (even if you don't know css)
 
-# create-react-app-now
+## The rest is from the create-react-app-now [repo](https://github.com/xkawi/create-react-app-now)
+
+## [create-react-app-now](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
 
 Deploy React.js Static Web Apps generated with [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app) to Zeit's awesome [Now.sh](https://zeit.co/now/) service.
 
