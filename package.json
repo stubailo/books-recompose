@@ -1,0 +1,26 @@
+{
+  "name": "create-react-app-now",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5",
+    "serve": "^5.0.1"
+  },
+  "dependencies": {
+    "react": "^15.4.4",
+    "react-dom": "^15.4.0",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+	  "recompose": "^0.23.5",
+	  "apollo-client": "^1.4.2",
+	  "react-apollo": "^1.4.2"
+  },
+  "scripts": {
+    "now-start": "cd build && serve -s ./",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "now -e REACT_APP_SECRET_CODE=secretcode"
+  }
+}
